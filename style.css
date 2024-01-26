@@ -25,5 +25,49 @@ Font:
 
 Images: 
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
-    - (You may use any image you would like for the background!)
-*/
+    - (You may use any image you would like for the background!) */
+
+body {
+  background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+  background-size: 100%;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+  box-shadow: 10px 5px 5px blue;
+}
+
+#jordans-2 {
+  box-shadow: 10px 5px 5px #fb4040;
+}
+
+h1 {
+  text-align: center;
+  color: #6d00fb;
+  font-size: 3rem;
+  background: linear-gradient(#74c9f1, #fb4040);
+  border-radius: 30px;
+  text-shadow: #dbff39 1px 0 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  background-color: #74c9f1;
+  color: white;
+  font-size: 1.5em;
+  width: 70%;
+  border: 2px solid #f17500;
+  border-radius: 10px;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  line-height: 1.7em;
+  padding: 20px;
+}
+
+#jordans-2-desc {
+  background-color: #fb4040;
+  border: 2px solid #0d6e00;
+}
